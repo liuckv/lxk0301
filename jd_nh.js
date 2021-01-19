@@ -418,6 +418,7 @@ function showMsg() {
   })
 }
 //抽奖
+/*
 function draw() {
   let body = `activityId=${ACT_ID}&uuid=${$.actorUuid}&pin=${encodeURIComponent($.pin)}&drawValue=18`
   return new Promise(resolve => {
@@ -444,7 +445,7 @@ function draw() {
       }
     })
   })
-
+*/
 }
 function taskUrl(function_id, body) {
   return {
