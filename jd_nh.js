@@ -445,8 +445,8 @@ function draw() {
       }
     })
   })
-*/
 }
+*/
 function taskUrl(function_id, body) {
   return {
     url: `https://lzdz-isv.isvjcloud.com/${function_id}?${body}`,
