@@ -13,7 +13,7 @@ let cookie = process.env.JD_COOKIE;
 // const cookie2 = jdCookieNode.CookieJD2 ? jdCookieNode.CookieJD2 : $.getdata('CookieJD2');
 !(async () => {
   // if (!cookie) {
-  //   $.msg('【liuning0307/lxk0301 京东账号一】', '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/', {"open-url": "https://bean.m.jd.com/"});
+  //   $.msg('【liuning0307/lxk0301 京东账号一 有效 】', '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/', {"open-url": "https://bean.m.jd.com/"});
   // }
   // await jdUnsubscribe();
   await receivePetTreasureBoxReward();
